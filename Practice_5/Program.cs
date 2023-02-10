@@ -9,8 +9,16 @@
 Console.WriteLine("Введите число");
 string example = Console.ReadLine();
 int a = Convert.ToInt32(example);
-int result = a % 10;
+if (a / 100 == 0 || a / 100 > 9) 
+{
+    Console.WriteLine("This number is not correct");
+}
+    else {
+        int result = a % 10;
 Console.WriteLine(result);
+}
+
+
 
 
 // Console.WriteLine("Введите число");
