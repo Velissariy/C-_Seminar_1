@@ -11,28 +11,51 @@
 //4 -> "-4, -3, -2, -1, 0, 1, 2, 3, 4" 
 //2 -> " -2, -1, 0, 1, 2"
 
-Console.WriteLine("Введите первое число");
+// Console.WriteLine("Введите первое число");
+// string example1 = Console.ReadLine();
+// int a = Convert.ToInt32(example1);
+// Console.WriteLine("Введите второе число");
+// string example2 = Console.ReadLine();
+// int b = Convert.ToInt32(example2);
+
+// int i = a - 1;
+// while (i < b);
+// {
+//   i += 1;
+//   Console.Write(i);
+// }
+
+
+Console.WriteLine("Введите число");
 string example1 = Console.ReadLine();
 int a = Convert.ToInt32(example1);
-Console.WriteLine("Введите второе число");
-string example2 = Console.ReadLine();
-int b = Convert.ToInt32(example2);
 
-int i = a - 1;
-while (i < b);
-{
-  i += 1;
-  Console.Write(i);
-}
+int b = a * -1;
 
+int i = b - 1;
+ while (i < a)
+ {
+     i += 1;
+     Console.Write(i + " ");
+ }
 
 
 
 
+// Console.WriteLine("Введите первое число");
+// string example1 = Console.ReadLine();
+// int a = Convert.ToInt32(example1);
+// Console.WriteLine("Введите второе число");
+// string example2 = Console.ReadLine();
+// int b = Convert.ToInt32(example2);
+
+// int i = a - 1;
+// while (i < b)
+// {
+//     i += 1;
+//     Console.Write(i + " ");
 
 
 
-// Задача №7. Напишите программу, которая принимает на вход трёхзначное число и на выходе показывает последнюю цифру этого числа.
-// 	456 -> 6
-// 	782 -> 2
-// 	918 -> 8
+
+
