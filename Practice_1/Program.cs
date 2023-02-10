@@ -6,13 +6,23 @@
 //-3 -> 9 
 //-7 -> 49
 
-string example = Console.ReadLine(); 
-int a = Convert.ToInt32(example);                                 //Convert.ToInt32(string)   string example = Console.ReadLine()  int a = Convert.ToInt32(example)
+//int a = Convert.ToInt32(Console.ReadLine());
+//int b = Convert.ToInt32(Console.ReadLine());
+
+//if (a*a==b)
+//{Console.WriteLine("True");}
+//else
+//Console.WriteLine("False");
+
+
+
+//string example = Console.ReadLine(); 
+//int a = Convert.ToInt32(example);                                 //Convert.ToInt32(string)   string example = Console.ReadLine()  int a = Convert.ToInt32(example)
                                                 
 //int result = 1;
 
-int result = a * a;
-Console.WriteLine(result);
+//int result = a * a;
+//Console.WriteLine(result);
 
 //Console.WriteLine("Введите число"); //Вывод в консоль
 //string example = Console.ReadLine(); //Создаем переменную example, в которую записываем строковое значение из консоли

@@ -14,8 +14,8 @@
 //Console.WriteLine(result); //Вывод результата
 
 
-static void Example()
-{
+//static void Example()
+//{
 System.Console.WriteLine("Введите первое число");
 int numberA = Convert.ToInt32(System.Console.ReadLine());
 System.Console.WriteLine("Введите второе число");
@@ -33,17 +33,10 @@ else
 }
 System.Console.ReadLine();
 
-}
+//}
 
 
 
 
 
 
-//int a = Convert.ToInt32(Console.ReadLine());
-//int b = Convert.ToInt32(Console.ReadLine());
-
-//if (a*a==b)
-//{Console.WriteLine("True");}
-//else
-//Console.WriteLine("False");
